@@ -8,11 +8,13 @@ geverifieerd: <JJJJ-MM-DD>
 
 # <Projectnaam> — werkinstructies voor agents
 
-Huisregels: https://github.com/eBikeXL/playbook — lees die eerst.
+Huisregels: https://github.com/gij-uit-byte/playbook — lees die eerst.
 Kort: werk dit bestand bij in dezelfde commit, en is `geverifieerd` hierboven
 ouder dan 90 dagen, behandel dit document dan als aanwijzing, niet als waarheid.
 
 Lees daarna in deze volgorde:
+
+0. de huisregels hierboven: `PRINCIPES.md`, `ONTWERP.md`, `DOCUMENTATIE.md`
 
 1. `docs/spec.md` — wat we bouwen en wat we bewust niet bouwen
 2. `docs/beslissingen.md` — waar we staan en waarom
@@ -20,6 +22,18 @@ Lees daarna in deze volgorde:
 ## Wat dit is
 
 <Eén alinea. Waarvoor bestaat dit project, voor wie.>
+
+## Merk
+
+<Alleen als dit project een voorkant heeft. Wat hier staat gaat boven
+ONTWERP.md uit het playbook — maar zakt nooit onder de vloer die daar staat.>
+
+```
+humor: <droge knipoog | geen>
+kleuren: <tokens, of een verwijzing naar het bestand waar ze staan>
+letters: <display, body, labels>
+signatuur: <het ene ding waar dit ontwerp om onthouden wordt>
+```
 
 ## Draaien
 

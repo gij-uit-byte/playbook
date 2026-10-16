@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # /playbook check — diagnose, schrijft niets.
-# Draai vanuit de projectroot:  curl -sS https://raw.githubusercontent.com/eBikeXL/playbook/main/check.sh | bash
+# Draai vanuit de projectroot:  curl -sS https://raw.githubusercontent.com/gij-uit-byte/playbook/main/check.sh | bash
 #
 # Leest het statusblok bovenin AGENTS.md en controleert vier dingen:
 #   1. is de verificatie ouder dan 90 dagen
