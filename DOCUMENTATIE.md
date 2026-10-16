@@ -28,6 +28,11 @@ andersom. Reden: Cursor leest `AGENTS.md`, en OpenCode leest `AGENTS.md` maar
 valt terug op `CLAUDE.md` als die er niet is. Twee gevulde bestanden lopen uit
 elkaar, en dan is er geen waarheid meer.
 
+**Heeft een project al één document dat die rol vervult** — een README dat
+spec en besluitenlog tegelijk is, een `MASTER_CONTEXT.md` die andere agents
+lezen — verhuis het dan niet. Laat `AGENTS.md` ernaar verwijzen. Verhuizen om
+de vorm kost werk en breekt wie het oude pad kende.
+
 **Scheid houdbaar van vluchtig.** Een besluit als "waarom niet dit framework"
 gaat jaren mee. "Wat er live staat" veroudert in weken. Staan ze door elkaar in
 één bestand, dan vertrouwt een agent het hele document niet meer. Vluchtige
