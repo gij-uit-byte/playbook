@@ -82,6 +82,7 @@ echo "4. bestaat wat AGENTS.md beschrijft"
 gevonden=0
 while IFS= read -r pad; do
   case "$pad" in */*) ;; *) continue ;; esac            # moet een pad zijn, geen losse naam
+  case "$pad" in *"<"*|*"*"*|*"{"*) continue ;; esac   # patroon of plekhouder, geen echt pad
   case "$pad" in node_modules/*) continue ;; esac       # niet ons werk
   case "$pad" in *.md|*.ts|*.tsx|*.sql|*.json|*.css|*/) ;; *) continue ;; esac
   gevonden=$((gevonden+1))
