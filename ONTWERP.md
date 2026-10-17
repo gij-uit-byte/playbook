@@ -57,6 +57,8 @@ Tekst is ontwerpmateriaal, geen opvulling.
 - **Een foutmelding zegt wat er misging en wat je nu doet.** Zonder excuses,
   zonder vaagheid.
 - Actief, concreet, zinnen in gewone hoofdletters. Geen superlatieven.
+- **Het klinkt niet als AI.** De patronen om te vermijden staan in
+  [`VINDBAARHEID.md`](VINDBAARHEID.md).
 
 ## Humor: een droge knipoog, en alleen waar het mag
 

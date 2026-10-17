@@ -8,12 +8,13 @@ Deze repo is bewust openbaar, zodat een agent op een verse machine de regels
 zonder inloggen kan ophalen. Er staat daarom niets in wat bedrijfsspecifiek of
 gevoelig is: alleen werkwijze.
 
-## Vier bestanden, elk één onderwerp
+## Vijf bestanden, elk één onderwerp
 
 | bestand | waarover | lees je wanneer |
 |---|---|---|
 | [`PRINCIPES.md`](PRINCIPES.md) | hoe je iets opbouwt: architectuur, keuzes, grenzen | je iets nieuws ontwerpt of toevoegt |
 | [`ONTWERP.md`](ONTWERP.md) | de kwaliteitsvloer voor alles met een voorkant, en toon | je een scherm, pagina of tekst maakt |
+| [`VINDBAARHEID.md`](VINDBAARHEID.md) | gevonden worden zonder trucs, en tekst die niet naar AI klinkt | je iets publiceert dat gevonden moet worden |
 | [`DOCUMENTATIE.md`](DOCUMENTATIE.md) | hoe een project wordt vastgelegd zodat een ander het oppakt | je een project begint, overdraagt of afsluit |
 | [`TEMPLATE.md`](TEMPLATE.md) | een lege `AGENTS.md` om mee te beginnen | je een nieuw project aanlegt |
 
