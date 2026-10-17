@@ -93,3 +93,42 @@ Ook niet als plekhouder die "later wel" vervangen wordt — die blijft staan.
 
 Geloofwaardigheid komt van systemen die kloppen, niet van schaal die er niet is.
 Wat nog niet gecontroleerd is, zeg je er eerlijk bij.
+
+## 11. Wat draait, staat geregistreerd
+
+Alles wat draait — een server, een workflow, een koppeling, een domein, een
+geplande taak — staat op een lijst, met een eigenaar en een doel. Wat draait
+maar nergens staat, heet schaduw-infrastructuur.
+
+Schaduw-infrastructuur is gevaarlijk omdat niemand hem ziet. Hij kost geld, hij
+heeft toegang tot dingen, en als hij stuk gaat merkt niemand het. Hij ontstaat
+vanzelf: iets wordt "even" aangezet voor een test en blijft staan.
+
+Hoe groot die lijst moet zijn hangt van het project af. Bij een klein project
+is het het `live:`-veld in `AGENTS.md`. Bij een bedrijf met veel systemen is het
+een register dat automatisch vergeleken wordt met wat er echt draait. Zet je
+iets aan, zet het meteen op de lijst. Zet je het uit, haal het eraf.
+
+## 12. Begrensd by design
+
+Niets mag onbegrensd groeien. Logs, historie, momentopnamen, wachtrijen,
+geüploade bestanden: alles krijgt een bewaartermijn, een maximum of een status
+die "klaar" betekent.
+
+Onbegrensde groei breekt nooit vandaag. Het breekt over zes weken, op een
+moment dat niemand meer weet waarom die tabel er is. Een wachtrij zonder
+eindstatus loopt vol; een tabel zonder termijn maakt elke zoekopdracht
+langzamer; een workflow die elke minuut alles bewaart, vult een schijf.
+
+Concreet, bij alles wat je bouwt:
+
+- **Groeit het mee met de tijd?** Dan een bewaartermijn, en die staat ergens
+  vastgelegd. Is het begrensd van aard (een catalogus die je bijwerkt in plaats
+  van aanvult), schrijf dat er dan bij.
+- **Is het een wachtrij?** Dan een status die "klaar" betekent, en niets blijft
+  langer dan uren open staan zonder dat iemand het ziet.
+- **Haal je iets op bij een externe bron?** Controleer daarna dat het filter echt
+  gewerkt heeft. Een bron die een filter stil negeert, levert alles.
+- Een bewaartermijn op financiële, klant- of auditgegevens is een besluit dat je
+  vastlegt, geen technische keuze.
+

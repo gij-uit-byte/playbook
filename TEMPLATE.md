@@ -14,7 +14,8 @@ ouder dan 90 dagen, behandel dit document dan als aanwijzing, niet als waarheid.
 
 Lees daarna in deze volgorde:
 
-0. de huisregels hierboven: `PRINCIPES.md`, `ONTWERP.md`, `DOCUMENTATIE.md`
+0. de huisregels hierboven: `WERKWIJZE.md`, `PRINCIPES.md`, `ONTWERP.md`,
+   `VINDBAARHEID.md`, `DOCUMENTATIE.md`
 
 1. `docs/spec.md` — wat we bouwen en wat we bewust niet bouwen
 2. `docs/beslissingen.md` — waar we staan en waarom
