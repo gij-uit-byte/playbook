@@ -47,3 +47,21 @@ Neem aan dat iemand anders ergens middenin zit, tot je het tegendeel hebt gezien
 - **Moet een mens toch iets doen, maak het minimaal:** een directe link, de waarde
   om te plakken, en per stap wat er letterlijk op het scherm staat en waar je klikt.
 - **Vraag alleen wat je niet zelf kunt uitzoeken,** en bundel die vragen in één keer.
+
+## Niets laten hangen aan iemands login
+
+Wat vanzelf hoort te draaien, mag niet stilvallen omdat een mens opnieuw moet inloggen.
+
+- **Automatisering draait op een servicesleutel, niet op een persoonlijke login.**
+  Een API-sleutel, serviceaccount of eigen token met alleen de rechten die nodig
+  zijn. Geen browsersessie of persoonlijke abonnementslogin die na weken verloopt.
+- **Moet het toch via OAuth, dan in een vorm die niet stil verloopt.** Een app in
+  productiestatus, niet in testmodus (daar verlopen vernieuwingstokens na zeven
+  dagen); een token met een bekende einddatum.
+- **Elke sleutel met een einddatum krijgt een waarschuwing ruim vooraf** in het vaste
+  meldkanaal, met de vervangstap erbij beschreven.
+- **Valt iets toch terug op een persoonlijke login, dan faalt het luid:** één melding
+  met wat er stil ligt. Niet stil doorgaan op een andere route.
+- **Leg een mens geen terugkerende handeling op** die een machine kan doen. Is één
+  handeling onvermijdelijk (een sleutel aanmaken), maak hem minimaal en zorg dat hij
+  daarna niet terugkomt.
